@@ -1,0 +1,19 @@
+{
+  "name": "sansara",
+  "version": "1.0.0",
+  "description": "recrutation project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moniqka/sansaraProject.git"
+  },
+  "author": "Monika Kowalska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moniqka/sansaraProject/issues"
+  },
+  "homepage": "https://github.com/moniqka/sansaraProject#readme"
+}
