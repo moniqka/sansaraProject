@@ -1,0 +1,45 @@
+body {
+  margin: 0 auto;
+  font-family: "ff-good-headline-web-pro-ext", sans-serif;
+  background-color: #caf2f1;
+  background-image: url(../images/gradient.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  color: #333d3c; }
+
+.header-container {
+  display: flex;
+  margin: 36px auto;
+  padding: 0 50px;
+  justify-content: space-between;
+  align-items: center; }
+  .header-container__social-icons {
+    height: 17px; }
+  .header-container__social-icons a {
+    opacity: 0.6; }
+    .header-container__social-icons a:hover {
+      opacity: 1; }
+      .header-container__social-icons a:hover img {
+        transform: scale(1.05); }
+    .header-container__social-icons a:first-of-type {
+      padding-right: 10px; }
+  .header-container__languages {
+    display: flex;
+    flex-flow: row nowrap; }
+  .header-container__languages a {
+    color: #333d3c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    text-decoration: none; }
+    .header-container__languages a:hover {
+      opacity: .8;
+      transform: scale(1.05); }
+    .header-container__languages a:first-of-type {
+      padding-right: 8px; }
+
+
+/*# sourceMappingURL=style.css.map*/
