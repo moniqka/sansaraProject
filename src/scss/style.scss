@@ -19,14 +19,11 @@ body {
 .header-container {
   display: flex;
   margin: 30px auto;
-  padding: 0 30px;
+  padding: 0 50px;
   justify-content: space-between;
   align-items: center;
   &__logo {
     display: flex;
-    justify-content: flex-start;
-    flex: 4;
-    margin-left: 50px;
   }
   &__social-icons a {
     opacity: 0.6;
@@ -37,7 +34,6 @@ body {
   &__languages {
     display: flex;
     flex-flow: row nowrap;
-    margin-right: 50px;
   }
   &__languages a {
     padding-left: 10px;
@@ -48,12 +44,4 @@ body {
     text-transform: uppercase;
     letter-spacing: 1.8px;
   }
-}
-
-.header_top {
-  display: flex;
-  width: 50%;
-  flex-flow: row;
-  justify-content: space-between;
-  align-items: center;
 }
