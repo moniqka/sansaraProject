@@ -1,0 +1,59 @@
+body {
+  margin: 0 auto;
+  font-family: "ff-good-headline-web-pro-ext", sans-serif;
+  background-color: #caf2f1;
+  background-image: url(../img/gradient.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  color: #333d3c;
+}
+
+.main {
+  margin: 0 auto;
+  position: relative;
+}
+
+/* header */
+.header-container {
+  display: flex;
+  margin: 30px auto;
+  padding: 0 30px;
+  justify-content: space-between;
+  align-items: center;
+  &__logo {
+    display: flex;
+    justify-content: flex-start;
+    flex: 4;
+    margin-left: 50px;
+  }
+  &__social-icons a {
+    opacity: 0.6;
+    &:first-of-type {
+      padding-right: 15px;
+    }
+  }
+  &__languages {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-right: 50px;
+  }
+  &__languages a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #333d3c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+  }
+}
+
+.header_top {
+  display: flex;
+  width: 50%;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
