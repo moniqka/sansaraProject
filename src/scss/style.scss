@@ -1,3 +1,5 @@
+$color-basic: #333d3c;
+$color-basic-light: #586967;
 body {
   margin: 0 auto;
   font-family: "ff-good-headline-web-pro-ext", sans-serif;
@@ -7,18 +9,19 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  color: #333d3c;
+  color: $color-basic;
 }
 
 // ---> header <--- //
 .header-container {
   display: flex;
-  margin: 36px auto;
+  margin-top: 36px;
   padding: 0 50px;
   justify-content: space-between;
   align-items: center;
   &__social-icons{
     height: 17px;
+    margin-left: -40px;
   }
   &__social-icons a {
     opacity: 0.6;
@@ -37,7 +40,7 @@ body {
     flex-flow: row nowrap;
   }
   &__languages a {
-    color: #333d3c;
+    color: $color-basic;
     // font-family: "Good Headline Pro - X Cond Black"; --> użyta orginalnie czcionka font-weight: 400
     font-size: 18px;
     font-weight: 700; // ze względu na brak ww. czcionki w celu imitacji zwiększone pogrubienie
@@ -52,4 +55,161 @@ body {
       padding-right: 8px;
     }
   }
+}
+// ---> welcome section <--- //
+.welcome {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 140px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  h2 {
+    margin: 0;
+    margin-bottom: 57px;
+    color: $color-basic-light;
+    // font-family: "Good Headline Pro - Cond Book";
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+  }
+  h1 {
+    margin: 0;
+    margin-bottom: 27px;
+    font-size: 80px;
+    letter-spacing: 8px;
+    font-weight: 700;
+  }
+  &__button {
+    width: 221px;
+    height: 40px;
+    border: 2px solid white;
+    color: #ffffff;
+    background: none;
+    font-family: "ff-good-headline-web-pro-ext", sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400px;
+    letter-spacing: 2.4px;
+    cursor: pointer;
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+      font-weight: 600;
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  }
+  &__box {
+    position: relative;
+    &--image {
+      position: absolute;
+      top: -150px;
+      left: calc(50% - 347px);
+      z-index: -1;
+    }
+    &--shadow {
+      position: absolute;
+      background-size: contain;
+      width: 506px;
+      height: 298px;
+      top: 280px;
+      left: calc(50% - 280px);
+      z-index: -2;
+    }
+  }
+  &__scroll {
+    margin-top: 205px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  &__line {
+    width: 2px;
+    height: 121px;
+    background-color: $color-basic;
+  }
+}
+.blob1 {
+  position: absolute;
+  top: 28px;
+  left: 405px;
+}
+.blob2 {
+  position: absolute;
+  top: 0;
+  left: 438px;
+}
+.blob3 {
+  position: absolute;
+  top: 107px;
+  left: 368px;
+}
+.blob4 {
+  position: absolute;
+  top: 151px;
+  left: 431px;
+}
+.blob5 {
+  position: absolute;
+  top: 199px;
+  left: 477px;
+}
+.blob6 {
+  position: absolute;
+  top: 245px;
+  left: 483px;
+  z-index: -1;
+}
+.blob7 {
+  position: absolute;
+  top: 341px;
+  left: 347px;
+}
+.blob8 {
+  position: absolute;
+  top: 349px;
+  left: 495px;
+}
+.blob9 {
+  position: absolute;
+  top: 393px;
+  left: 451px;
+  z-index: -1;
+}
+.blob10 {
+  position: absolute;
+  top: 471px;
+  right: 405px;
+}
+.blob11 {
+  position: absolute;
+  top: 531px;
+  right: 463px;
+}
+.blob12 {
+  position: absolute;
+  top: 837px;
+  left: 537px;
+}
+.blob13 {
+  position: absolute;
+  top: 773px;
+  right: 315px;
+}
+.blob14 {
+  position: absolute;
+  top: 721px;
+  left: 132px;
+}
+.blob15 {
+  position: absolute;
+  top: 644px;
+  left: 0;
 }
