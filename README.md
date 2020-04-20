@@ -6,4 +6,6 @@ recrutation project --> src folder
 ## TODO:
 - missing section
 - RWD
+- buttons actions
+- increace scrolling animation effects
 - fix webpack config --> scss to css wrong dist folder
