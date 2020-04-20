@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "css-loader": "^3.5.2",
+    "lax.js": "^1.2.5",
     "style-loader": "^1.1.4"
   }
 }

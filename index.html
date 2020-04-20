@@ -11,9 +11,9 @@
 
   <body>
     <!---- HEADER --->
-    <header class="header-container">
+    <header id="header" class="header-container">
       <div class="header-container__logo">
-        <img src="src/img/logo.png" alt="rise by sansara">
+        <img src="src/img/logo.png" alt="rise by sansara logo">
       </div>
       <div class="header-container__social-icons">
         <a href="#">
@@ -40,26 +40,188 @@
       <span class="welcome__scroll">scroll to unpack</span>
       <div class="welcome__line"></div>
     </section>
+    <!---- ABOUT SECTION --->
+    <section class="about">
+      <div class="about-container">
+        <div class="about-container__logos">
+          <img src="src/img/section-about/logos.png" alt="logos">
+        </div>
+        <div class="about-container__info">
+          <p class="about-container__info--first">
+            Ride by Sansara to agencja eventowa, która zajmuje się
+            kompleksową organizacją eventów na każdym etapie współpracy.
+            Nasz zespół składa się z doświadczonych specjalistów z dziedziny
+            logistyki, cateringu, oświetlenia, dźwięku, marketingu oraz kreacji.
+            Wieloletnie doświadczeniei pasja sprawiają, że stworzymy
+            dla Ciebie każdy rodzaj eventu.
+          </p>
+          <p class="about-container__info--second">
+            Sansara Group to agencja eventowa, która zajmuje się 
+            kompleksową organizacją eventów na każdym etapie współpracy. 
+            Poznaj właścicileki agencji:
+          </p>
+          <div class="about-container__info--names">
+            <div class="person-container">
+              <div class="person-container__name">
+                <h3 class="person-container__name--first">Dyrektor kreatywny</h3>
+                <h2>Małgorzata Mańkowska:</h2>
+              </div>
+              <span><a href="#">Check</a></span>
+            </div>
+            <div class="person-container">
+              <div class="person-container__name">
+                <h3 class="person-container__name--second">Dyrektor operacyjny</h3>
+                <h2>Katarzyna Hącia:</h2>
+              </div>
+              <span><a href="#">Check</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---- MISSION SECTION --->
+    <section id="mission" class="mission">
+      <div class="mission__container">
+        <div class="mission__text">
+          <p>
+            Wierzymy, że kreatywność i postęp nie mają granic, a wychodzenie pozaramy otwiera wiele możliwości, dlatego tworzymy eventy, w których podstawą jest dostarczanie niezapomnianych emocji. W naszych produkcjach dążymy do kreowania zaskakującej i porywającej przestrzeni, w której uczestnicy eventu mogą poczuć się wyjątkowo i niepowatrzalnie. Multidyscyplinarny zespół, odwaga i nastawienie na sukces to fundamentynaszych działań.
+          </p>
+        </div>
+        <div class="mission__number">
+          <h1 class="mission__number--first">01 Misja</h1>
+          <h2 class="mission__number--second">02 Wizja</h2>
+          <div onclick="" class="mission__button">
+            <img src="src/img/section-mission/button.png">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---- INFO SECTION --->
+    
+    <!---- PORTFOLIO SECTION --->
+    <section id="portfolio" class="portfolio">
+      <div class="portfolio__first-box">
+        <div class="portfolio__first-box--inner">
+          <h1>Realizacje</h1>
+          <h2>Nasze projekty zrealizowane w ostatnim czasie:</h2>
+          <button>Zobacz projekty</button>
+        </div>
+      </div>
+      <div class="portfolio__second-box">
+        <div class="portfolio__first-box--inner">
+          <h1>Oferta</h1>
+          <h2>Zobacz co możemy dla Ciebie zrobić i znajdź rodzaj eventu, który Cię interesuje:</h2>
+          <button>Zobacz ofertę</button>
+        </div>
+      </div>
+    </section>
+    <!---- CONTACT SECTION --->
+    <section id="contact" class="contact">
+      <div class="contact__form">
+        <h2 class="contact__title">Masz pytania?</h2>
+        <form>
+          <input type="text" placeholder="imię i nazwisko">
+          <input type="email" placeholder="e-mail">
+          <input type="number" placeholder="numer telefonu">
+          <input class="message" type="text" placeholder="treść wiadomości">
+          <button type="submit">Wyślij</button>
+        </form>
+      </div>
+      <div class="contact__box">
+        <h1>Kontakt</h1>
+        <div class="contact__box--person">
+          <h2>Małgorzata Mańkowska</h2>
+          <p>m.mankowska@sansara-event.pl</p>
+          <span>+48 721 160 869</span>
+        </div>
+        <div class="contact__box--person">
+          <h2>Katarzyna Hącia</h2>
+          <p>k.hacia@sansara-event.pl</p>
+          <span>+48 721 140 905</span>
+        </div>
+      </div>
+    </section>
+    <!---- FOOTER --->
+    <section class="footer">
+      <div class="footer__img">
+        <img src="src/img/footer/box.png" alt="opened box">
+      </div>
+      <div class="footer__container">
+        <div class="footer__container__social">
+          <img src="src/img/footer/logo-rise.png" alt="rise by sansara logo">
+          <div class="footer__container__social--icons">
+            <a href="">
+              <img src="src/img/footer/instagram.png" alt="instagram">
+            </a>
+            <a href="">
+              <img src="src/img/footer/facebook.png" alt="facebook">
+            </a>
+          </div>
+        </div>
+        <nav class="footer__container__nav">
+          <ul class="footer__container__nav--items">
+            <li class="nav-item"><a href="#header">sansara group</a></li>
+            <li class="nav-item"><a href="#mission">misja & wizja</a></li>
+            <li class="nav-item"><a href="">oferta</a></li>
+            <li class="nav-item"><a href="#portfolio">realizacje</a></li>
+            <li class="nav-item"><a href="#contact">kontakt</a></li>
+          </ul>
+        </nav>
+        <img class="footer__container__logo" src="src/img/footer/logo-johnwestongroup.png" alt="John Weston Group logo">
+      </div>
+    </section>
     <!---- DECORATIONS --->
     <section class="decorations">
+      <!---- header&about -->
       <img src="src/img/Warstwa_8.png" class="blob1">
       <img src="src/img/Warstwa_5_kopia.png" class="blob2">
       <img src="src/img/Warstwa_3_kopia_2.png" class="blob3">
-      <img src="src/img/Warstwa_8.png" class="blob4">
-      <img src="src/img/Warstwa_5.png" class="blob5">
+      <img src="src/img/Warstwa_8.png" class="lax blob4" data-lax-preset="driftLeft">
+      <img src="src/img/Warstwa_5.png" class="lax blob5" data-lax-preset="eager-100">
       <img src="src/img/Warstwa_3.png" class="blob6">
-      <img src="src/img/Warstwa_11.png" class="blob7">
-      <img src="src/img/Warstwa_5_kopia_6.png" class="blob8">
-      <img src="src/img/Warstwa_8_kopia_3.png" class="blob9">
+      <img src="src/img/Warstwa_11.png" class="lax blob7" data-lax-preset="lazy">
+      <img src="src/img/Warstwa_5_kopia_6.png" class="lax blob8" data-lax-preset="driftRight">
+      <img src="src/img/Warstwa_8_kopia_3.png" class="lax blob9" data-lax-preset="speedy">
       <img src="src/img/Warstwa_8.png" class="blob10">
       <img src="src/img/Warstwa_3_kopia_3.png" class="blob11">
-      <img src="src/img/Warstwa_5_kopia_2.png" class="blob12">
+      <img src="src/img/Warstwa_5_kopia_2.png" class="lax blob12" data-lax-preset="lazy">
       <img src="src/img/Warstwa_7.png" class="blob13">
-      <img src="src/img/Warstwa_8_kopia_3.png" class="blob14">
+      <img src="src/img/Warstwa_8_kopia_3.png" class="lax blob14" data-lax-preset="driftRight" data-lax-optimize=true>
       <img src="src/img/Warstwa_3_kopia_7.png" class="blob15">
+      <!---- footer -->
+      <img src="src/img/footer/Warstwa_26_kopia_4.png" class="blob16">
+      <img src="src/img/footer/Warstwa_23_kopia_6.png" class="lax blob17" data-lax-preset="lazy">
+      <img src="src/img/footer/Warstwa_5_kopia_14.png" class="lax blob18" data-lax-preset="lazy">
+      <img src="src/img/footer/Warstwa_24_kopia.png" class="blob19">
+      <!---- portfolio -->
+      <img src="src/img/section-portfolio/Warstwa_5_kopia_17.png" class="blob20">
+      <img src="src/img/section-portfolio/Warstwa_5_kopia_14.png" class="lax blob21" data-lax-preset="lazy">
+      <img src="src/img/section-portfolio/Warstwa_26_kopia_6.png" class="lax blob22" data-lax-preset="driftRight">
+      <img src="src/img/section-portfolio/Warstwa_24_kopia_6.png" class="lax blob23" data-lax-preset="lazy">
+      <!---- about & mission -->
+      <img src="src/img/section-about/Warstwa_26_kopia_7.png" class="lax blob24" data-lax-preset="lazy-200">
+      <img src="src/img/section-about/Warstwa_3_kopia_6.png" class="lax blob25" data-lax-preset="lazy">
+      <img src="src/img/section-about/Warstwa_5_kopia_3.png" class="lax blob26" data-lax-preset="lazy-300">
+      <img src="src/img/section-about/Warstwa_6_kopia.png" class="lax blob27" data-lax-preset="lazy">
+      <img src="src/img/section-about/Warstwa_5_kopia_3.png" class="lax blob28" data-lax-translate-y="vh 0, -elh (vw*0.4)">
     </section>
     <!---- SCRIPTS --->
     <script src="src/js/app.js"></script>
+    <script src="lib/lax.min.js"></script>
+    <!-- <script>
+      window.onload = function() {
+        lax.setup()
+        const update = () => {
+          lax.update(window.scrollY)
+          window.requestAnimationFrame(update)
+        }
+        window.requestAnimationFrame(update)
+        let w = window.innerWidth
+        window.addEventListener("scroll", function() {
+          lax.updateElements()
+        });
+      }
+    </script> -->
   </body>
 
 </html>
