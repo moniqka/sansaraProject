@@ -176,37 +176,52 @@
       <img src="src/img/Warstwa_8.png" class="blob1">
       <img src="src/img/Warstwa_5_kopia.png" class="blob2">
       <img src="src/img/Warstwa_3_kopia_2.png" class="blob3">
-      <img src="src/img/Warstwa_8.png" class="blob4">
-      <img src="src/img/Warstwa_5.png" class="blob5">
+      <img src="src/img/Warstwa_8.png" class="lax blob4" data-lax-preset="driftLeft">
+      <img src="src/img/Warstwa_5.png" class="lax blob5" data-lax-preset="eager-100">
       <img src="src/img/Warstwa_3.png" class="blob6">
-      <img src="src/img/Warstwa_11.png" class="blob7">
-      <img src="src/img/Warstwa_5_kopia_6.png" class="blob8">
-      <img src="src/img/Warstwa_8_kopia_3.png" class="blob9">
+      <img src="src/img/Warstwa_11.png" class="lax blob7" data-lax-preset="lazy">
+      <img src="src/img/Warstwa_5_kopia_6.png" class="lax blob8" data-lax-preset="driftRight">
+      <img src="src/img/Warstwa_8_kopia_3.png" class="lax blob9" data-lax-preset="speedy">
       <img src="src/img/Warstwa_8.png" class="blob10">
       <img src="src/img/Warstwa_3_kopia_3.png" class="blob11">
-      <img src="src/img/Warstwa_5_kopia_2.png" class="blob12">
+      <img src="src/img/Warstwa_5_kopia_2.png" class="lax blob12" data-lax-preset="lazy">
       <img src="src/img/Warstwa_7.png" class="blob13">
-      <img src="src/img/Warstwa_8_kopia_3.png" class="blob14">
+      <img src="src/img/Warstwa_8_kopia_3.png" class="lax blob14" data-lax-preset="driftRight" data-lax-optimize=true>
       <img src="src/img/Warstwa_3_kopia_7.png" class="blob15">
       <!---- footer -->
       <img src="src/img/footer/Warstwa_26_kopia_4.png" class="blob16">
-      <img src="src/img/footer/Warstwa_23_kopia_6.png" class="blob17">
-      <img src="src/img/footer/Warstwa_5_kopia_14.png" class="blob18">
+      <img src="src/img/footer/Warstwa_23_kopia_6.png" class="lax blob17" data-lax-preset="lazy">
+      <img src="src/img/footer/Warstwa_5_kopia_14.png" class="lax blob18" data-lax-preset="lazy">
       <img src="src/img/footer/Warstwa_24_kopia.png" class="blob19">
       <!---- portfolio -->
       <img src="src/img/section-portfolio/Warstwa_5_kopia_17.png" class="blob20">
-      <img src="src/img/section-portfolio/Warstwa_5_kopia_14.png" class="blob21">
-      <img src="src/img/section-portfolio/Warstwa_26_kopia_6.png" class="blob22">
-      <img src="src/img/section-portfolio/Warstwa_24_kopia_6.png" class="blob23">
+      <img src="src/img/section-portfolio/Warstwa_5_kopia_14.png" class="lax blob21" data-lax-preset="lazy">
+      <img src="src/img/section-portfolio/Warstwa_26_kopia_6.png" class="lax blob22" data-lax-preset="driftRight">
+      <img src="src/img/section-portfolio/Warstwa_24_kopia_6.png" class="lax blob23" data-lax-preset="lazy">
       <!---- about & mission -->
-      <img src="src/img/section-about/Warstwa_26_kopia_7.png" class="blob24">
-      <img src="src/img/section-about/Warstwa_3_kopia_6.png" class="blob25">
-      <img src="src/img/section-about/Warstwa_5_kopia_3.png" class="blob26">
-      <img src="src/img/section-about/Warstwa_6_kopia.png" class="blob27">
-      <img src="src/img/section-about/Warstwa_5_kopia_3.png" class="blob28">
+      <img src="src/img/section-about/Warstwa_26_kopia_7.png" class="lax blob24" data-lax-preset="lazy-200">
+      <img src="src/img/section-about/Warstwa_3_kopia_6.png" class="lax blob25" data-lax-preset="lazy">
+      <img src="src/img/section-about/Warstwa_5_kopia_3.png" class="lax blob26" data-lax-preset="lazy-300">
+      <img src="src/img/section-about/Warstwa_6_kopia.png" class="lax blob27" data-lax-preset="lazy">
+      <img src="src/img/section-about/Warstwa_5_kopia_3.png" class="lax blob28" data-lax-translate-y="vh 0, -elh (vw*0.4)">
     </section>
     <!---- SCRIPTS --->
     <script src="src/js/app.js"></script>
+    <script src="lib/lax.min.js"></script>
+    <!-- <script>
+      window.onload = function() {
+        lax.setup()
+        const update = () => {
+          lax.update(window.scrollY)
+          window.requestAnimationFrame(update)
+        }
+        window.requestAnimationFrame(update)
+        let w = window.innerWidth
+        window.addEventListener("scroll", function() {
+          lax.updateElements()
+        });
+      }
+    </script> -->
   </body>
 
 </html>
